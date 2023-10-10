@@ -1,0 +1,50 @@
+body{
+	background-color:#D4AAE7;
+	color: #002933
+}
+
+h1{
+	font-size: 3em;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2, h3{
+	font-size: 2em;
+	font-family: 'Courier New', Courier, monospace;
+	color: #1f0632;
+	text-align: center;
+
+}
+
+P{
+	line-height: normal;
+}
+
+img, video{
+	border: 5px solid #fbdb6d;
+	padding: 10px;
+	margin: 20px;
+	border-top-right-radius: 30px;
+}
+
+li {
+	display: inline-block;
+	margin-left: 50px;
+
+}
+
+/* I am struggling to get this to work  */
+
+.skip-main{
+	position: absolute;
+  	left: -999px;
+  	width:1px;
+ 	height: 1px;
+  	top: auto;
+}
+
+li.active{
+	color:#fbdb6d;
+
+}
