@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pets 💞</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body bgcolor="Plum">
-   
-    <main>
-        <a class="skip-main" href="#main">Skip to Main Content</a>
+<body>
         <header>
+            <a href="#main" class="skip-main">Skip to Main Content</a>
+        </header>
             <nav>
                 <ul>
-                    <li class="active"><a href = "index.html">Pets</a></li>
+                    <li><a class = "active" href="index.html">Pets</a></li>
                     <li><a href = "travel.html">Travel</a></li>
-                    <li><a href = "recipes.html">Random Stuff</a></li>
+                    <li><a href = "recipes.html">Recipes</a></li>
                 </ul>
             </nav>
-        </header>
-        <h1>Pets &hearts; </h1>
+        <main id="main">
+        <div class = "grid">
         <div>
+            <h1>Pets &hearts; </h1>
             <h2>Axel Foley</h2>
             <img src="images/axel_foley.jpg" width = "400" alt="Brown labradoodle wearing colorful lei">
 
@@ -118,8 +120,9 @@
                 <li>Paper bags</li>
                 <li>Reaching the top of her tower</li>
                 <li>Comforting her owner</li>
+            </ul>
         </div>
-        <div>
+        <div class = "grid">
             <h2>Smoothie</h2>
             <img src="images/Copy of Smoothie_curious.jpg" width = "350" alt="A long-haired orange tabby cat looks up at their owner (out of frame)">
 
@@ -135,8 +138,11 @@
             <ul>
                 <li>Playing</li>
                 <li>Sunshine</li>
+            </ul>
         </div>
-        <footer>&hearts; &hearts; &hearts;<br>
+    </main>
+    <footer>
+        &hearts; &hearts; &hearts;<br>
         Photo credit for Axel: Kiki Verdun
         Photo credit for Bacon Q. Dog: Colleen Van Lent<br>
         Photo credit for Fitz: Kay Malan<br>
@@ -144,9 +150,6 @@
         Photo credit for Smoothie: Fengyu Zhang + Siqing Xu + Boyuan Ma<br>
         Photo credit for Pumpkin Pie: Hannah Berger<br>
         Photo credit for Bailey: Alicia Madgwick<br>
-
-        </footer>
-    </main>
-    
+    </footer>
 </body>
 </html>

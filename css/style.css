@@ -1,0 +1,97 @@
+body{
+	background-color:rgb(248, 183, 217);
+	color: #002933
+}
+
+h1{
+	font-size: 3em;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2{
+	font-size: 2em;
+	font-family: Tahoma;
+	color: #1f0632;
+	text-align: center;
+
+}
+
+h3{font-size: 1.5em;
+	font-family: Tahoma;
+	color: #1f0632;
+	text-align: center;
+
+}
+
+p {
+	line-height: normal;
+	font-family: Tahoma;
+	background-color: #f7e0a6;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+img, video, .gif {
+	border: 5px solid  #e29cfc;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 30px;
+}
+
+@media (prefers-reduced-motion: reduce){
+	.gif {display:
+		none}
+}
+
+li {
+	display: inline-block;
+	margin-left: 50px;
+
+}
+
+.skip-main{
+	visibility: collapse; 
+
+}
+
+
+
+nav {
+	background-color: #f7e0a6;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+
+nav a.active{
+	border: dotted 6px #e29cfc;
+}
+
+nav ul li {
+	display: inline;
+    padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+}
+
+.grid ul li {
+	display: block;
+    background-color: #f7e0a6; 
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+
+}
+
+.grid img, video {
+	display: inline;
+    padding: 10px 15px 10px 15px;
+    background-color: #f7e0a6; 
+	border-radius: 25px;
+
+}
+
+footer{
+	padding: 10px 15px 10px 15px;
+    background-color: #f7e0a6; 
+	border-radius: 25px;
+}
